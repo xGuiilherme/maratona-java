@@ -22,8 +22,8 @@ public class Pessoa {
         this.peso += sorvete.getPeso();
     }
 
-    // Polimorfismo dinamico: Não precisa mais ter os metodos especificos p/ tipos especificos porq ele consegue passar
-    // deforma polimorfica qual quer tipo que herda de comida Feijão, Arroz etc.Tipo que não foram criados ainda, desde
+    // Polimorfismo dinamico: Não precisa mais ter os metodos especificos p/ tipos especificos porque ele consegue passar
+    // de forma polimórfica qual quer tipo que herda de comida Feijão, Arroz etc.Tipo que não foram criados ainda, desde
     // que esses tipos herdem de 'Comida'
     public void comer(Comida comida) {
         this.peso += comida.getPeso();
