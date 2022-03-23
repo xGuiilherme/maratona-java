@@ -1,27 +1,12 @@
 package date;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class Data {
 
-    public static void main(String[] args) {
+    int dia;
+    int mes;
+    int ano;
 
-        Date data = new Date();
-        SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
-        String dataFormatada = format.format(data);
-        System.out.println(dataFormatada);
-
-        /*
-        y Year
-        M Month in year
-        D Day in year
-        d Day in month
-        H Hour in day
-        h Hour in am/pm
-        m Minute in hour
-        s Second in minute
-        S Millesecond Number
-         */
+    String obterDataFormat() {
+        return String.format("%d/%d/%d", dia, mes, ano);
     }
 }

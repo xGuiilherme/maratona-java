@@ -1,6 +1,6 @@
-package desafio;
+package EqualsHashcode;
 
-public class EqualsHashcode {
+public class Equals {
 
     public static void main(String[] args) {
 

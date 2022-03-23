@@ -1,6 +1,6 @@
-package classe;
+package date;
 
-public class DataTest {
+public class DataTeste {
 
     public static void main(String[] args) {
 
