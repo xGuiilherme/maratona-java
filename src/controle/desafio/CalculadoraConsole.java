@@ -2,7 +2,7 @@ package controle.desafio;
 
 import java.util.Scanner;
 
-public class Calculadora {
+public class CalculadoraConsole {
 
     public static void main(String[] args) {
 
