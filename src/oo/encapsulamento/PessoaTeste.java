@@ -8,7 +8,7 @@ public class PessoaTeste {
         p1.setIdade(230); // alterar
 
         System.out.println(p1.getIdade()); // ler
-        System.out.println(p1); // toString
+        System.out.println(p1); // toString - converte o valor para texto
         System.out.println(p1.getNomeCompleto()); // atributo calculado, está sendo calculado a partir de um metodo.
     }
 }
