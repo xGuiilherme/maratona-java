@@ -24,7 +24,8 @@ public class Combat {
         l[5] = new Lutador("Charles Oliveira", "Brasil", 30, 1.81f,
                 105.7f, 9, 3, 4);
 
-        l[3].perderLuta();
-        l[3].status();
+        Luta UFC01 = new Luta();
+        UFC01.marcarLuta(l[1], l[5]);
+        UFC01.lutar();
     }
 }
