@@ -20,5 +20,5 @@ Alguns dos assuntos que foram abordados durante o curso:
 - Banco de Dados Relacional.
 - Bando de Dados NÃO Relacional (NoSQL).
 - JPA (Hibernate).
-- Spring Boot.
+- Spring Boot (Framework). 
 - Conceitos sobre WEB (HTTP, DNS, Client Side).
