@@ -1,8 +1,8 @@
-package fundamentos.desafio;
+package fundamentos.desafios;
 
 import java.util.Scanner;
 
-public class Desafio1 {
+public class CalcularMediaSalario {
 
     public static void main(String[] args) {
 

@@ -1,8 +1,8 @@
-package arrays;
+package arrays.desafios;
 
 import java.util.Arrays;
 
-public class Exercicios {
+public class MatrizNotasAlunos {
 
     public static void main(String[] args) {
 

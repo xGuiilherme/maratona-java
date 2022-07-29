@@ -1,4 +1,4 @@
-package fundamentos.desafio;
+package fundamentos.desafios;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class DesafioModulo {
         System.out.print("Informe a operação: ");
         String op = entrada.next();
 
-        System.out.printf("%.2 %f %s $f = ?", num1, op, num2);
+        System.out.printf("%.2 %f %s $f = ?", num1, num2, op);
         entrada.close();
     }
 }

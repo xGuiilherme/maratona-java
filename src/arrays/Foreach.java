@@ -4,7 +4,7 @@ public class Foreach {
 
     public static void main(String[] args) {
 
-        // Foreach = p/ cada elemento faça.. percorrer Array inteiro.
+        // ForEach = para cada elemento faça.. percorrer Array inteiro.
         double[] notas = {9.9, 8.7, 7.2, 9.4};
 
         for (int i = 0; i < notas.length; i++) {
@@ -12,7 +12,7 @@ public class Foreach {
         }
 
         System.out.println();
-        // P/ cada repetição o valor de notas vai apontar para 1 elemento do Array
+        // Para cada repetição o valor de notas vai apontar para um elemento do Array.
         for (double nota : notas)
             System.out.print(nota + " ");
     }

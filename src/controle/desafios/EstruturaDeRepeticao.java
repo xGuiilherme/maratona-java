@@ -1,4 +1,4 @@
-package controle.desafio;
+package controle.desafios;
 
 public class EstruturaDeRepeticao {
 

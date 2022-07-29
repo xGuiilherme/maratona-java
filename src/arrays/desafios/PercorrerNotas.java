@@ -1,10 +1,11 @@
-package arrays;
+package arrays.desafios;
 
 import java.util.Scanner;
 
-public class Desafio {
+public class PercorrerNotas {
 
     public static void main(String[] args) {
+
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Quantas notas: ");
@@ -13,7 +14,7 @@ public class Desafio {
         double[] notas = new double[qtdeNotas];
 
         for (int i = 0; i < notas.length; i++) {
-            System.out.print("Informe a nota " + (i + 1) + "; ");
+            System.out.print("Informe a nota " + (i + 1) + ": ");
             notas[i] = entrada.nextDouble();
         }
         // Foreach pecorrer todos os elementos sem precisar de uma variavel para controlar o FOR.
