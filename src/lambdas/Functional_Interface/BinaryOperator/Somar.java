@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.Functional_Interface.BinaryOperator;
 
 public class Somar implements Calculo {
 
