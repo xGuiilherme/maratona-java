@@ -10,9 +10,9 @@ public class Campo {
     private final int linha;
     private final int coluna;
     private boolean aberto = false;
-    private boolean minado = false;
+    private final boolean minado = false;
     private boolean marcado = false;
-    private List<Campo> vizinhos = new ArrayList<>();
+    private final List<Campo> vizinhos = new ArrayList<>();
 
     public Campo(int linha, int coluna) {
         this.linha = linha;
@@ -40,8 +40,7 @@ public class Campo {
         }
     }
 
-    void alternarMarcacao() {
-
+    public void alternarMarcacao() {
         if (!aberto) {
             marcado = !marcado;
         }
@@ -68,5 +67,9 @@ public class Campo {
 
     boolean vizinhancaSegura() {
         return vizinhos.stream().noneMatch(v -> v.minado);
+    }
+
+    public boolean isMarcado() {
+        return marcado;
     }
 }
