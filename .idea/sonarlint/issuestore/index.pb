@@ -15,3 +15,5 @@ H
 src/lambdas/ForEach.java,1\f\1fe99bb41969c83bf50198256a7deed9badb307d
 I
 src/poo/desafio/Luta.java,1\9\19b5f1d4c77398649fa6f045bf0f17bbc7c4db3f
+`
+0src/zcampo_minado/excecao/ExplosaoException.java,1\6\16b298963afbd1236b5685527ea142e20f63f47f
